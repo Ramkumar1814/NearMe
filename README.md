@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-## Date: 10-10-2024
+## Date:22.10.2024
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -26,147 +26,54 @@ Execute the programs and publish them.
 
 ## CODE
 ```
-map.html
-<html>
-    <head>
-        <title>MY CITY</title>
-    </head>
-    <body bgcolor="lilblue">
-        <h1 align="center">
-            <font color="black"><b>CHIDAMBARAM</b></font>
-        </h1>
-        <h3 align="center">
-            <font color="black"><b>B.NIHITHA RANI (212223040131)</b></font>
-        </h3>
-        <center>
-            <img src="cd.png" usemap="#MYCITY" height="910" width="1800">
-            <map name="MYCITY">
-                <area shape="rect" coords="820,495,960,470" href="hotel.html" title="AKSHAYA HOTEL">
-                <area shape="circle" coords="1100,630,21" href="resort.html" title="KRISH GARDEN FARM RESORTS">
-                <area shape="circle" coords="1250,619,21" href="university.html" title="ANNAMALAI UNIVERSITY">
-                <area shape="rect" coords="800,480,850,460" href="mobiles.html" title="POORVIKA MOBILES">
-                <area shape="rect" coords="820,150,825,155" href="mahal.html" title="SRI KRISHNA GRAND MAHAL">
-            </map>
-        </center>
-        <title align="center">CHIDAMBARAM</title> 
-        <title align="center">B.NIHITHA RANI (212223040131)</title>
-    </body>
-</html> 
 
-
-hotel.html
-<html>
-    <head>
-        <title>MY HOME TOWN</title>
-    </head>
-    <body bgcolor="violet">
-        <h1 align="center">
-            <font color="lilblue">AKSHAYA HOTEL</font>
-        </h1>
-        <hr size="3" color="pink">
-        <p align="justify">
-            <font face="Georgia" size="5">
-                This hotel is the most famous vegetarian hotel in CHIDAMBARAM.
-                The hotel is large and spacious.
-                It has a varieties of food.
-                The food tastes so good and yummy.
-            </font>
-        </p>
-    </body>
+Developed by :RAMKUMAR.S
+Register Number :212223220085
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="d2.png" alt="" height = "530" usemap = "#MapNew" onmousemove = "coordinate(event)">
+    <map name="MapNew">
+        <area shape="RECT" coords="234,189,267,244" href="https://www.booking.com/hotel/in/hyatt-regency-chennai.html" alt="hyatt">
+        <area shape="RECT" coords="366,311,389,280" href="https://www.kauveryhospital.com/" alt="kauvery hospital">
+        <area shape="rect" coords="223,231,267,340" href="https://www.kunmotorrad.in/" alt="bmw">
+        <area shape="rect" coords="50,240,76,250" href="https://www.booking.com/hotel/in/grt-grand-chennai-chennai.html" alt="grt">
+        <area shape="rect" coords="197,468,220,498" href="https://www.agscinemas.com/" alt="ags">
+    </map><br>
+    
+    
+   
+</body>
 </html>
-
-resort.html
-<html>
-    <head>
-        <title>MY HOME TOWN</title>
-    </head>
-    <body bgcolor="green">
-        <h1 align="center">
-            <font color="violet">KRISH GARDEN FARM RESORTS</font>
-        </h1>
-        <hr size="3" color="pink">
-        <p align="justify">
-            <font face="Georgia" size="5">
-                This resort is the most famous in CHIDAMBARAM.
-                It has a very spacious arrangement of rooms.
-                The service is so good.
-            </font>
-        </p>
-    </body>
-</html>
-
-mahal.html
-<html>
-    <head>
-        <title>MY HOME TOWN</title>
-    </head>
-    <body bgcolor="lilblue">
-        <h1 align="center">
-            <font color="white">SRI KRISHNA GRAND MAHAL</font>
-        </h1>
-        <hr size="3" color="pink">
-        <p align="justify">
-            <font face="Georgia" size="5">
-                A very good mahal for marriage arrangements.
-                There we can have birthday parties,engagement,and so on.
-                Quite decent and huge mahal.
-            </font>
-        </p>
-    </body>
-</html>
-
-
-university.html
-<html>
-    <head>
-        <title>MY HOME TOWN</title>
-    </head>
-    <body bgcolor="yellow">
-        <h1 align="center">
-            <font color="red">ANNAMALAI UNIVERSITY</font>
-        </h1>
-        <hr size="3" color="pink">
-        <p align="justify">
-            <font face="Georgia" size="5">
-                It is one of the oldest universities.
-                It is famous for agriculture and medical.
-                It is well known for its distinct education facility.
-            </font>
-        </p>
-    </body>
-</html>
-
-
-mobiles.html
-<html>
-    <head>
-        <title>MY HOME TOWN</title>
-    </head>
-    <body bgcolor="red">
-        <h1 align="center">
-            <font color="yellow">POORVIKA MOBILES</font>
-        </h1>
-        <hr size="3" color="pink">
-        <p align="justify">
-            <font face="Georgia" size="5">
-                The biggest showroom for mobiles in CHIDAMBARAM.
-                Located near bus stand.
-                There are many offers going on it.
-            </font>
-        </p>
-    </body>
-</html>
-
-
 ```
 
 ## OUTPUT
-![alt text](map.png)
-![alt text](akshayahotel.png)
-![alt text](resorts.png)
-![alt text](mahal.png)
-![alt text](annamalai.png)
-![alt text](poorvikamobiles.png)
+
+![Screenshot 2024-04-16 225804](https://github.com/gowshik145/NearMe/assets/155086127/c99928af-9c0d-4516-ae02-07e6662520f9)
+![Screenshot 2024-04-16 230010](https://github.com/gowshik145/NearMe/assets/155086127/3996a70c-5496-43be-8fe8-4ba486c84687)
+![Screenshot 2024-04-16 230119](https://github.com/gowshik145/NearMe/assets/155086127/a36d43fa-580f-4157-a3f4-c39bc4a85b52)
+![Screenshot 2024-04-16 230220](https://github.com/gowshik145/NearMe/assets/155086127/a7d7ad3f-1083-44e4-8066-fa08bf9edeb0)
+![Screenshot 2024-04-16 231253](https://github.com/gowshik145/NearMe/assets/155086127/8be72dbf-6fcd-458f-b52a-e3a29d1f7e4c)
+![Screenshot 2024-04-16 230952](https://github.com/gowshik145/NearMe/assets/155086127/38c8a9ac-0563-466e-b8d2-751c5c7891b5)
+
+
+
+
+
+
+
+
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
